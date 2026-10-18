@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Collections | Nostra</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="promo">Sign up and 
+    <strong>get 20% off</strong> your first order
+    <button class="promo-close" type="button" aria-label="Dismiss promotion">×</button>
+</div>
+<header>
+    <div class="bar">
+        <a class="logo" href="index.html">Nostra</a>
+<button class="menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
+<nav aria-label="Main">
+    <ul>
+<li>
+    <a href="index.html">Home</a>
+</li>
+<li>
+    <a href="index.html#new-arrival">New Arrival</a>
+</li>
+<li>
+    <a href="index.html#most-wanted">Most Wanted</a>
+</li>
+<li>
+    <a href="index.html#top-rated">Top Rated</a>
+</li>
+<li>
+    <a href="collections.html">Collections</a>
+</li>
+<li>
+    <a href="contact.html">Contact Us</a>
+</li>
+</ul>
+</nav>
+<button class="cart" type="button" aria-haspopup="dialog" aria-controls="cart-dialog" aria-expanded="false">Cart (0)</button>
+</div>
+</header>
+<dialog class="cart-dialog" id="cart-dialog" aria-labelledby="cart-title">
+    <div class="cart-panel">
+        <div class="cart-header">
+            <h2 id="cart-title">Your cart</h2>
+            <button class="cart-close" type="button" aria-label="Close cart">×</button>
+        </div>
+        <p class="cart-status" role="status" aria-live="polite"></p>
+        <ul class="cart-items" aria-label="Selected items"></ul>
+        <div class="cart-summary">
+            <span>Total</span>
+            <strong class="cart-total">$0.00</strong>
+        </div>
+    </div>
+</dialog>
+<main class="wrap">
+    <h2>Collections</h2>
+    <div class="layout">
+        <aside aria-label="Filters">
+<fieldset>
+    <h3>Occasion</h3>
+    <label>
+        <input type="checkbox" name="occasion" value="Summer">Summer
+    </label>
+        <label>
+            <input type="checkbox" name="occasion" value="Party">Party
+        </label>
+            <label>
+                <input type="checkbox" name="occasion" value="Beach">Beach
+            </label>
+            </fieldset>
+<fieldset>
+    <h3>Colors</h3>
+    <label>
+        <input type="checkbox" name="color" value="Red">Red
+    </label>
+        <label>
+            <input type="checkbox" name="color" value="Blue">Blue
+        </label>
+        <label>
+            <input type="checkbox" name="color" value="White">White
+        </label>
+        <label>
+            <input type="checkbox" name="color" value="Green">Green
+        </label>
+        <label>
+            <input type="checkbox" name="color" value="Black">Black
+        </label>
+        </fieldset>
+<fieldset>
+    <h3>Arrivals</h3>
+    <label>
+        <input type="checkbox" name="arrival" value="New">New</label>
+        <label>
+            <input type="checkbox" name="arrival" value="Old">Old</label>
+        </fieldset>
+    </aside>
+<div class="grid" id="collection-grid" aria-live="polite"></div>
+</div>
+</main>
+<section class="news">
+    <h2>Join our newsletter</h2>
+<p>Sign up for exclusive discounts, updates and more.</p>
+<form id="newsletter" novalidate>
+    <input type="email" placeholder="Your email" aria-label="Email" required>
+    <button class="btn" style="background:var(--acc)">Subscribe</button>
+</form>
+</section>
+<footer>
+    <div>
+        <h3>Nostra</h3>
+        <p>Summer, party and beach styles,<br>made to be worn on repeat.</p>
+        <p>vinothrstar1111@gmail.com</p>
+    </div>
+    <p>© 2023 Nostra.com</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>

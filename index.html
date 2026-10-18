@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home | Nostra</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="promo">Sign up and <strong>get 20% off</strong> your first order<button class="promo-close" type="button" aria-label="Dismiss promotion">×</button></div>
+<header>
+    <div class="bar">
+    <a class="logo" href="index.html">Nostra</a>
+<button class="menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
+<nav aria-label="Main">
+    <ul>
+<li>
+    <a href="index.html">Home</a>
+</li>
+<li>
+    <a href="index.html#new-arrival">New Arrival</a>
+</li>
+<li>
+    <a href="index.html#most-wanted">Most Wanted</a>
+</li>
+<li>
+    <a href="index.html#top-rated">Top Rated</a>
+</li>
+<li>
+    <a href="collections.html">Collections</a>
+</li>
+<li>
+    <a href="contact.html">Contact Us</a>
+</li>
+</ul>
+</nav>
+<button class="cart" type="button" aria-haspopup="dialog" aria-controls="cart-dialog" aria-expanded="false">Cart (0)</button>
+</div>
+</header>
+<dialog class="cart-dialog" id="cart-dialog" aria-labelledby="cart-title">
+    <div class="cart-panel">
+        <div class="cart-header">
+            <h2 id="cart-title">Your cart</h2>
+            <button class="cart-close" type="button" aria-label="Close cart">×</button>
+        </div>
+        <p class="cart-status" role="status" aria-live="polite"></p>
+        <ul class="cart-items" aria-label="Selected items"></ul>
+        <div class="cart-summary">
+            <span>Total</span>
+            <strong class="cart-total">$0.00</strong>
+        </div>
+    </div>
+</dialog>
+<main>
+    <section class="hero hero-slider" aria-label="Featured collections">
+        <div class="hero-slides" aria-hidden="true">
+            <div class="hero-track">
+                <div class="hero-slide"><img src="images/hero-menswear.jpg" alt=""></div>
+                <div class="hero-slide"><img src="images/mens-beachwear.jpg" alt=""></div>
+                <div class="hero-slide"><img src="images/mens-top-rated-streetwear.jpg" alt=""></div>
+                <div class="hero-slide"><img src="images/mens-top-rated-denim-jacket.jpg" alt=""></div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <h1>Style for the season ahead</h1>
+            <p>Light fabrics, bold colors and pieces for every occasion.</p>
+            <a class="btn" href="collections.html">Shop collections</a>
+        </div>
+        <div class="hero-controls" aria-label="Featured image controls">
+            <button class="hero-arrow" type="button" data-slide-step="-1" aria-label="Previous image">‹</button>
+            <div class="hero-dots" aria-label="Choose featured image"></div>
+            <button class="hero-arrow" type="button" data-slide-step="1" aria-label="Next image">›</button>
+        </div>
+    </section>
+<section class="wrap" id="new-arrival">
+    <h2>New arrivals</h2>
+    <div class="grid" id="new-grid"></div>
+</section>
+<section class="wrap" id="most-wanted">
+    <h2>Most wanted</h2>
+    <div class="grid" id="wanted-grid"></div>
+</section>
+<section class="wrap" id="top-rated">
+    <h2>Top rated</h2>
+    <div class="grid" id="top-rated-grid"></div>
+</section>
+</main>
+<section class="news">
+    <h2>Join our newsletter</h2>
+<p>Sign up for exclusive discounts, updates and more.</p>
+<form id="newsletter" novalidate>
+    <input type="email" placeholder="Your email" aria-label="Email" required>
+    <button class="btn" style="background:var(--acc)">Subscribe</button>
+</form>
+</section>
+<footer>
+    <div>
+        <h3>Nostra</h3>
+        <p>Summer, party and beach styles,<br>made to be worn on repeat.</p>
+        <p>vinothrstar1111@gmail.com</p>
+    </div>
+    <p>© 2023 Nostra.com</p>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
